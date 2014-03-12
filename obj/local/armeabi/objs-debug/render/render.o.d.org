@@ -1,0 +1,179 @@
+obj/local/armeabi/objs-debug/render/render.o: jni/render.c \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/android/log.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/android/bitmap.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/cdefs.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/cdefs_elf.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/android/api-level.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/stdint.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/_types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/_types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/jni.h \
+ jni/freetype/include/freetype/ftglyph.h jni/freetype/include/ft2build.h \
+ jni/freetype/include/freetype/config/ftheader.h \
+ jni/freetype/include/freetype/freetype.h \
+ jni/freetype/include/freetype/config/ftconfig.h \
+ jni/freetype/include/freetype/config/ftoption.h \
+ jni/freetype/include/freetype/config/ftstdlib.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/limits.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/limits.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/limits.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/internal_types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/limits.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/syslimits.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/asm/page.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/string.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/malloc.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/stdio.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/posix_types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/stddef.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/compiler.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/asm/posix_types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/asm/types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/types.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/kernel.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/sysmacros.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/stdlib.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/alloca.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/strings.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/memory.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/setjmp.h \
+ E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/setjmp.h \
+ jni/freetype/include/freetype/fterrors.h \
+ jni/freetype/include/freetype/ftmoderr.h \
+ jni/freetype/include/freetype/fterrdef.h \
+ jni/freetype/include/freetype/fttypes.h \
+ jni/freetype/include/freetype/ftsystem.h \
+ jni/freetype/include/freetype/ftimage.h jni/harfbuzz-ng/src/hb-ft.h \
+ jni/harfbuzz-ng/src/hb.h jni/harfbuzz-ng/src/hb-blob.h \
+ jni/harfbuzz-ng/src/hb-common.h jni/harfbuzz-ng/src/hb-buffer.h \
+ jni/harfbuzz-ng/src/hb-unicode.h jni/harfbuzz-ng/src/hb-font.h \
+ jni/harfbuzz-ng/src/hb-face.h jni/harfbuzz-ng/src/hb-deprecated.h \
+ jni/harfbuzz-ng/src/hb-set.h jni/harfbuzz-ng/src/hb-shape.h \
+ jni/harfbuzz-ng/src/hb-shape-plan.h jni/harfbuzz-ng/src/hb-version.h \
+ jni/render.h
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/android/log.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/android/bitmap.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/cdefs.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/cdefs_elf.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/android/api-level.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/stdint.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/_types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/_types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/jni.h:
+
+jni/freetype/include/freetype/ftglyph.h:
+
+jni/freetype/include/ft2build.h:
+
+jni/freetype/include/freetype/config/ftheader.h:
+
+jni/freetype/include/freetype/freetype.h:
+
+jni/freetype/include/freetype/config/ftconfig.h:
+
+jni/freetype/include/freetype/config/ftoption.h:
+
+jni/freetype/include/freetype/config/ftstdlib.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/limits.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/limits.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/limits.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/internal_types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/limits.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/syslimits.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/asm/page.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/string.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/malloc.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/stdio.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/posix_types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/stddef.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/compiler.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/asm/posix_types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/asm/types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/linux/types.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/kernel.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/sys/sysmacros.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/stdlib.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/alloca.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/strings.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/memory.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/setjmp.h:
+
+E:/android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include/machine/setjmp.h:
+
+jni/freetype/include/freetype/fterrors.h:
+
+jni/freetype/include/freetype/ftmoderr.h:
+
+jni/freetype/include/freetype/fterrdef.h:
+
+jni/freetype/include/freetype/fttypes.h:
+
+jni/freetype/include/freetype/ftsystem.h:
+
+jni/freetype/include/freetype/ftimage.h:
+
+jni/harfbuzz-ng/src/hb-ft.h:
+
+jni/harfbuzz-ng/src/hb.h:
+
+jni/harfbuzz-ng/src/hb-blob.h:
+
+jni/harfbuzz-ng/src/hb-common.h:
+
+jni/harfbuzz-ng/src/hb-buffer.h:
+
+jni/harfbuzz-ng/src/hb-unicode.h:
+
+jni/harfbuzz-ng/src/hb-font.h:
+
+jni/harfbuzz-ng/src/hb-face.h:
+
+jni/harfbuzz-ng/src/hb-deprecated.h:
+
+jni/harfbuzz-ng/src/hb-set.h:
+
+jni/harfbuzz-ng/src/hb-shape.h:
+
+jni/harfbuzz-ng/src/hb-shape-plan.h:
+
+jni/harfbuzz-ng/src/hb-version.h:
+
+jni/render.h:
