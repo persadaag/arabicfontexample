@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 		btnSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Toast.makeText(MainActivity.this, "On click listener \n" + String.valueOf(spinner1.getSelectedItem()), Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, String.valueOf(spinner1.getSelectedItem()), Toast.LENGTH_SHORT).show();
 				String name;
 				int key = (int)(spinner1.getSelectedItemId());
 				
