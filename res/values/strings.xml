@@ -6,10 +6,10 @@
     <string name="hello_world">Pilih font</string>
     <string name="font_prompt">Choose a font type</string>
     <string-array name="font_type">
-        <item>Font 1</item>
-        <item>Font 2</item>
-        <item>Font 3</item>        
-        <item>Font 4</item>
+        <item>Me-Quran</item>
+        <item>Naskh</item>
+        <item>Noorehuda</item>        
+        <item>Qalam</item>
     </string-array>
 
 </resources>

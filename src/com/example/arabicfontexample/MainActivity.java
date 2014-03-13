@@ -23,34 +23,63 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		// set font type
+		// set default font type
         String name = "me_quran.ttf";
         try {
 			NativeRenderer.loadFont(getAssets().open(name));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
-        
-        String text2 = "۞ وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ";
+        String text = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
         TextView holder = (TextView) findViewById(R.id.arabic);
-        holder.setText(text2);
+        holder.setText(text);
         
-		//addListenerOnButton();
+		addListenerOnButton(text);
 	}
 
-	private void addListenerOnButton() {
+	private void addListenerOnButton(String text) {
 		// TODO Auto-generated method stub
 		
 		spinner1 = (Spinner) findViewById(R.id.spinner1);
 		btnSubmit = (Button) findViewById(R.id.button1);
+		final String txt = text;
 				
 		
 		btnSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Toast.makeText(MainActivity.this, "On click listener \n" + String.valueOf(spinner1.getSelectedItem()), Toast.LENGTH_LONG).show();
+				Toast.makeText(MainActivity.this, "On click listener \n" + String.valueOf(spinner1.getSelectedItem()), Toast.LENGTH_SHORT).show();
+				String name;
+				int key = (int)(spinner1.getSelectedItemId());
+				
+				switch (key) {
+				case 0:
+					name = "me_quran.ttf";
+					break;
+				case 1 : 
+						name = "naskh.otf";						
+					break;
+				case 2 : 
+						name = "noorehuda.ttf";
+					break;
+				case 3 : 
+						name = "qalam.ttf";
+					break;
+				default:
+					name = "me_quran.ttf";
+					break;
+				}; 
+				
+				
+				try {
+					NativeRenderer.loadFont(getAssets().open(name));
+					TextView holder = (TextView) findViewById(R.id.arabic);
+			        holder.setText(txt);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 		});
 		
